@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# Nick Warren Portfilo Website: React frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
 
-## Available Scripts
+The app allows users to see information on my resume (displayed), blogs, and projects. Additionally, the user should be able to see the various languages I know and the links to my LinkedIn, email, and GitHub.
 
-In the project directory, you can run:
+This project has a React frontend with use of Tailwind CSS and Flowbite components. The app will later be deployed on Netlify with domain name from Google.
 
-### `npm start`
+## Software Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- NodeJS (v16), and npm
+- Tailwind CSS 
+- Flowbite
+- React 
+- React Router Dom
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## User Experience:
+Portfolio - Homepage:
+    - User can see my photo
+    - User can view my software languages/frameworks that I'm fluent in
+    - User can see my LinkedIn (link to my LinkedIn page), GitHub (link to my GitHub page), Link to my email, resume (this will link to my resume page)
+    - User will see brief description of myself with information on my past jobs and proficiencies
+Portfolio - Projects: 
+    - User can see name of project
+    - User can see cards that have pictures of each project homepage
+    - User can see brief description 
+    - User will have links to front end repo, backend repo, and deployed site url 
+    - User has access to navbar to navigate to and from different pages
+Portfolio - Blogs: 
+    - User will be able to see cards with image used in blog
+    - User will see name of blog 
+    - User will see brief description of blog 
+    - User can click on link to go to blog
+    - User has access to navbar to navigate to and from different pages
+Portfolio - Resume: 
+    - User can see resume displayed on page
+    - User will have ability to download or link to email
+    - User has access to navbar to navigate to and from different pages
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Objective: 
+The objective of this app is to allow myself to send this to potential employers or fellow coders to either display my coding abilities, train fellow coders, or for mentoring fellow coders. 
 
-### `npm run build`
+## Development Objectives: 
+    - Display relevant info on homepage to give overall description of my proficiencies
+    - Allow user ease in navigation between pages (both internal and external pages) 
+    - Properly display my resume to allow user to clearly see the resume
+    - Have both projects and blogs properly displayed on their respective pages 
+    - Develop pleasureable view on all pages
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Overall Development Plan (Backend):
+1. Start by loading React-Router-Dom, Tailwind CSS, and Flowbite
+2. Create repo on GitHub to house code
+3. Create the following components: 
+    - App.js
+    - Homepage.js
+    - Blog.js 
+    - NavBar.js
+    - Projects.js
+    - Resume.js
+4. Fill out the functions on each page
+5. Establish routes to each page on the App.js
+5. Create navbar feature that is accessible on each page on the NavBar.js page
+6. Begin building out homepage with Tailwind CSS and Flowbite components (create background on Canva)
+7. Add links and used software languages on the homepage 
+8. Add the card features to both the blogs and projects pages
+9. Build out each card for the projects (include photo, name, description, and link to repo and deployed url)
+10. Build out each card for the blogs (include photo, name, description, and link to blog posts)
+11. Add resume to Resume.js page (use previous HTML project as a guide to do this)
+12. Purchase domain name on Google
+13. Deploy on Netlify
+14. Mqake final changes and reviews of portfolio site.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
