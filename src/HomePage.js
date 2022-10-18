@@ -14,14 +14,24 @@ function HomePage(){
                 />
             </div>
                 <h2 className="text-center text-5xl font-bold font-mono mb-4">NICK WARREN</h2>
-                <div className="inline-flex pl-80">
-                    <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-10 w-10 mr-1" src={processor} alt=""/>Software Engineer /</p> 
-                    <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-10 w-10 mr-1" src={scientist} alt=""/>Scientist /</p>
-                    <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-10 w-10 mr-1" src={oxygen} alt=""/>Scuba Diver</p>
+                <div className="container flex justify-center ml-16">
+                    <div className="inline-flex">
+                        <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={processor} alt=""/>Software Engineer /</p> 
+                        <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={scientist} alt=""/>Scientist /</p>
+                        <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={oxygen} alt=""/>Scuba Diver</p>
+                    </div>
+                </div>
+                <div className="my-16 container flex justify-center ml-16">
+                    <h3 className="text-center text-3xl font-bold font-mono w-8/12">About Me
+                    <p className="text-2xl font-bold font-mono "> In 2016, I graduated from the University of Colorado with a Bachelors of Arts degree in Geology and a minor in Business Administration. While at CU, 
+                    I wrote and defended my honors thesis infront of a panel of 4 professors. After successfuly defending my thesis, I graduated with Cum Laude honors. I then worked for the oil and gas industry for 5 years. At my Geological Technician position at 
+                    Fracture ID inc., I was taught to use Python code to analyze and modify data. This started my Software Engineering journey as I began to grow an interest in coding. As I started to enjoy coding more and more, I decided to become formaly educated in 
+                    Software Engineering in the Flatiron School bootcamp program. At Flatiron, I learned to code in JavaScript, React, Ruby, and Ruby on Rails. Additionally, I studied SQLite3, Postgresql, Sinatra, JSON, Tailwind CSS, Semantic UI, HTML, and CSS. After graduating
+                    from the Flatiron School program, I am now creating various web applications such as the Scuba Pocket Guide and Wanderlust (please see the Projects tab to learn more).
+                    </p>
+                    </h3>
                 </div>
             </div>
-
-            
         </div>
     )
 }

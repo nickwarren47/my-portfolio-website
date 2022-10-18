@@ -7,7 +7,7 @@ function NavBar(){
     let location = useLocation();
     
     return(
-        <>
+        <div className="bg-grey-900">
             <Navbar
                 fluid={true}
                 rounded={true}>
@@ -40,7 +40,7 @@ function NavBar(){
                 </Navbar.Collapse>
                 </div>
             </Navbar>
-    </>
+    </div>
     )
 }
 
