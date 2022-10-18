@@ -37,6 +37,11 @@ function NavBar(){
                         active={location.pathname === "/resume"}>
                         <Link to="/resume"> Resume </Link>
                     </Navbar.Link>
+                    
+                    <Navbar.Link
+                        active={location.pathname === "/nickactivities"}>
+                        <Link to="/nickactivities"> Activities </Link>
+                    </Navbar.Link>
                 </Navbar.Collapse>
                 </div>
             </Navbar>

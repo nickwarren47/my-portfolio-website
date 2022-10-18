@@ -4,6 +4,7 @@ import NavBar from './NavBar';
 import Projects from './Projects';
 import Blogs from './Blogs';
 import Resume from './Resume';
+import NickActivities from './NickActivities'
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
           <Route path='/projects' element={<Projects />} />
           <Route path='/blogs' element={<Blogs />} />
           <Route path='/resume' element={<Resume />}/>
+          <Route path='/nickactivities' element={<NickActivities />}/>
         </Routes>
       </Router>
     </div>
