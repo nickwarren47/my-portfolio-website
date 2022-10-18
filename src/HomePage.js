@@ -4,6 +4,9 @@ import scientist from './image/scientist.png'
 import processor from './image/processor.png'
 import oxygen from './image/oxygen.png'
 import divider from './image/divider.png'
+import email from './image/email.png'
+import github from './image/github.png'
+import linkedin from './image/linkedin.png'
 
 function HomePage(){
 
@@ -20,6 +23,13 @@ function HomePage(){
                         <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={processor} alt=""/>Software Engineer /</p> 
                         <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={scientist} alt=""/>Scientist /</p>
                         <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={oxygen} alt=""/>Scuba Diver</p>
+                    </div>
+                </div>
+                <div className="flex items-center justify-center">
+                    <div className="inline-flex my-7">
+                        <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-9 w-9 mr-2" src={email} alt=""/>Email</p> 
+                        <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/>GitHub</p>
+                        <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={linkedin} alt=""/>LinkedIn</p>
                     </div>
                 </div>
                 <div className="flex items-center justify-center">
@@ -42,9 +52,9 @@ function HomePage(){
                 </div>
                 <div className="flex items-center justify-center">
                     <div className="inline-flex">
-                        <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={processor} alt=""/>Software Engineer /</p> 
-                        <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={scientist} alt=""/>Scientist /</p>
-                        <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={oxygen} alt=""/>Scuba Diver</p>
+                        <p className="text-center text-3xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={processor} alt=""/>Software Engineer /</p> 
+                        <p className="text-center text-3xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={scientist} alt=""/>Scientist /</p>
+                        <p className="text-center text-3xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={oxygen} alt=""/>Scuba Diver</p>
                     </div>
                 </div>
             </div>
