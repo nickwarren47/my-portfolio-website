@@ -9,7 +9,7 @@ import wanderlust from './image/wanderlust.jpg'
 import beer from './image/beer.png'
 import destiny from './image/destiny.jpg'
 import coders from './image/coders.png'
-
+import { Link } from "react-router-dom";
 
 
 function Projects(){
@@ -20,6 +20,31 @@ function Projects(){
     //     diveLog.dive_site_name.toLowerCase().includes(search.toLowerCase()) ||
     //     diveLog.dive_site_country.toLowerCase().includes(search.toLowerCase())
     // )
+
+    
+    function ScubaGitHub() {
+        window.open("https://github.com/nickwarren47/scuba_pocket_guide");
+    }
+
+    function ScubaHeroku() {
+        window.open("https://morning-dusk-34890.herokuapp.com/");
+    }
+
+    function WanderGitHub() {
+        window.open("https://github.com/nickwarren47/phase-4_project");
+    }
+
+    function WanderHeroku() {
+        window.open("https://phase-4-wanderlust.herokuapp.com/");
+    }
+
+    function BeerGitHub() {
+        window.open("https://github.com/nickwarren47/Beer-Recipe-App");
+    }
+
+    function BeerDemo() {
+        window.open("https://www.loom.com/share/c1e25e570a5440a0b5335a94c9f8765d");
+    }
 
     return(
         <div>
@@ -42,8 +67,8 @@ function Projects(){
                            <p className="text-center text-xl font-medium pb-4"> React | Ruby | Ruby on Rails | Tailwind CSS | JSON Routing | Internal & External API</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/>Heroku Link</p> 
-                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/>GitHub Link</p>
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={ScubaHeroku}>Heroku Link</Link></p> 
+                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={ScubaGitHub}>GitHub Link</Link></p>
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/>Demo Link</p>
                             </div>
                         </div>
@@ -61,9 +86,9 @@ function Projects(){
                            <p className="text-center text-xl font-medium pb-4"> React | Ruby | Ruby on Rails | Tailwind CSS | JSON Routing | Internal API</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/>Heroku Link</p> 
-                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/>GitHub Link</p>
-                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/>Demo Link</p>
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={WanderHeroku}>Heroku Link </Link></p> 
+                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={WanderGitHub}>GitHub Link </Link></p>
+                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/>Demo Link </p>
                             </div>
                         </div>
                     </div>
@@ -82,9 +107,8 @@ function Projects(){
                            <p className="text-center text-xl font-medium pb-4"> Vanilla JavaScript | HTML | CSS | JSON Routing | External API</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/>Heroku Link</p> 
-                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/>GitHub Link</p>
-                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/>Demo Link</p>
+                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={BeerGitHub}>GitHub Link</Link></p>
+                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={BeerDemo}>Demo Link</Link></p>
                             </div>
                         </div>
                     </div>
@@ -100,8 +124,7 @@ function Projects(){
                         <h2 className="text-center text-xl font-bold"> Software Languages/Frameworks used: </h2>
                            <p className="text-center text-xl font-medium pb-4"> React | Active Record | DB.json Database | Semantic UI | JSON Routing</p>
                         <div className="flex items-center justify-center">
-                            <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/>Heroku Link</p> 
+                            <div className="inline-flex my-5"> 
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/>GitHub Link</p>
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/>Demo Link</p>
                             </div>
@@ -121,7 +144,6 @@ function Projects(){
                            <p className="text-center text-xl font-medium pb-4"> React | Ruby | Sinatra | Semantic UI | JSON Routing | Internal API</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/>Heroku Link</p> 
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/>GitHub Link (Frontend)</p>
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/>GitHub Link (Backend)</p>
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/>Demo Link</p>
