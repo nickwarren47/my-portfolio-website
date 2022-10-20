@@ -17,9 +17,17 @@ import html from './image/html.png'
 import css from './image/css.png'
 import semantic from './image/semantic.jpg'
 import tailwind from './image/tailwind.jpg'
-
+import { Link } from "react-router-dom";
 
 function HomePage(){
+
+    function GitHub() {
+        window.open("https://github.com/nickwarren47?tab=repositories");
+     }
+
+    function Linkedin() {
+        window.open("https://www.linkedin.com/in/nick-warren-co/");
+    }
 
     return(
         <div>
@@ -39,8 +47,8 @@ function HomePage(){
                 <div className="flex items-center justify-center">
                     <div className="inline-flex my-7">
                         <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-9 w-9 mr-2" src={email} alt=""/>Email</p> 
-                        <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/>GitHub</p>
-                        <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={linkedin} alt=""/>LinkedIn</p>
+                        <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link onClick={GitHub}>GitHub</Link></p>
+                        <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={linkedin} alt=""/><Link onClick={Linkedin}>LinkedIn</Link></p>
                     </div>
                 </div>
                 <div className="flex items-center justify-center">
@@ -49,7 +57,7 @@ function HomePage(){
                         <p className="text-2xl font-bold font-mono "> In 2016, I graduated from the University of Colorado with a Bachelors of Arts degree in Geology and a minor in Business Administration. While at CU, 
                         I wrote and defended my honors thesis infront of a panel of 4 professors. After successfuly defending my thesis, I graduated with Cum Laude honors. I then worked for the oil and gas industry for 5 years. At my Geological Technician position at 
                         Fracture ID inc., I was taught to use Python code to analyze and modify data. This started my Software Engineering journey as I began to grow an interest in coding. As I started to enjoy coding more and more, I decided to become formaly educated in 
-                        Software Engineering in the Flatiron School bootcamp program. At Flatiron, I learned to code in JavaScript, React, Ruby, and Ruby on Rails. Additionally, I studied SQLite3, Postgresql, Sinatra, JSON, Tailwind CSS, Semantic UI, HTML, and CSS. After graduating
+                        Fullstack Software Engineering in the Flatiron School bootcamp program. At Flatiron, I learned to code in JavaScript, React, Ruby, and Ruby on Rails. Additionally, I studied SQLite3, Postgresql, Sinatra, JSON, Tailwind CSS, Semantic UI, HTML, and CSS. After graduating
                         from the Flatiron School program, I am now creating various web applications such as the Scuba Pocket Guide and Wanderlust (please see the Projects tab to learn more).
                         </p>
                         </h3>

@@ -4,15 +4,29 @@ import blog2 from './image/blog2.jpg'
 import blog3 from './image/blog3.jpg'
 import blog4 from './image/blog4.jpg'
 import blog5 from './image/blog5.jpg'
-
+import { Link } from "react-router-dom";
 
 
 function Blogs(){
-
+    function Blog1() {
+        window.open("https://dev.to/nickwarren47/communicating-with-a-json-server-with-get-post-delete-and-patch-requestsits-easier-than-you-think-3ca2");
+     }
+     function Blog2() {
+        window.open("https://dev.to/nickwarren47/react-components-the-building-blocks-of-software-success-2ja5");
+     }
+     function Blog3() {
+        window.open("https://dev.to/nickwarren47/sql-foundation-of-databases-2d39");
+     }
+     function Blog4() {
+        window.open("https://dev.to/nickwarren47/encryption-authentication-and-authorization-in-ruby-on-rails-596a");
+     }
+     function Blog5() {
+        window.open("https://dev.to/nickwarren47/reflection-on-my-flatiron-school-software-engineering-bootcamp-20oa");
+     }
 
     return(
         <div>
-            <div className='bg-[url(https://user-images.githubusercontent.com/106715328/196274688-9ed1ce2b-1c68-4998-a448-75553ca991ef.jpg)] min-h-screen w-full bg-cover bg-center p-1'>
+            <div className='bg-[url(https://user-images.githubusercontent.com/106715328/196836326-7bdc25c5-ff5a-451c-8710-2ead27475db7.jpg)] min-h-screen w-full bg-cover bg-center p-1'>
             <h2 className="text-center text-7xl font-bold font-mono mb-4 my-10">TECHNICAL BLOGS</h2>
                 <div className="flex items-center justify-center">
                 <div className="grid grid-cols-3 gap-1 pl-8 pr-8">
@@ -29,7 +43,7 @@ function Blogs(){
                            <p className="text-center text-xl font-medium pb-1"> BCRYPT Encryption | Ruby User Authentication | Ruby User Authorization | Salting | Rainbow Tables</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/>Blog Link</p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link onClick={Blog4}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>
@@ -46,7 +60,7 @@ function Blogs(){
                            <p className="text-center text-xl font-medium pb-4"> JSON | Routing | Server-Client Interaction | JavaScript</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/>Blog Link</p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link onClick={Blog1}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>
@@ -64,7 +78,7 @@ function Blogs(){
                            <p className="text-center text-xl font-medium pb-4"> SQL | Databases | SQL Querying | SQLite3</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/>Blog Link</p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link onClick={Blog3}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>
@@ -81,7 +95,7 @@ function Blogs(){
                            <p className="text-center text-xl font-medium pb-4"> React | Parent-Child Components | Props | JavaScript</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/>Blog Link</p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link onClick={Blog2}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>
@@ -98,7 +112,7 @@ function Blogs(){
                            <p className="text-center text-xl font-medium pb-4"> Coding Advice | Bootcamp | Flatiron School</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/>Blog Link</p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link onClick={Blog5}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>
