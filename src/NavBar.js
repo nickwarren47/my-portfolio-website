@@ -13,7 +13,7 @@ function NavBar(){
                 rounded={true}>
                 <Navbar.Brand>
                     <Link to="/">
-                        <h1 className="text-3xl font-bold text-blue-800">Nick Warren</h1>
+                        <h1 className="text-3xl font-bold text-blue-800 hover:text-blue-400 transition duration-300 ease-in-out">Nick Warren</h1>
                     </Link>
                 </Navbar.Brand>
                 <div className="mr-52">
