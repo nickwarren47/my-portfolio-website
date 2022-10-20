@@ -15,6 +15,7 @@ function Resume(){
                     // height={900}
                     // width={700}
                 />
+            <br/>
             </div>
         </div>
     )
