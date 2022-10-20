@@ -43,7 +43,7 @@ function Blogs(){
                            <p className="text-center text-xl font-medium pb-1"> BCRYPT Encryption | Ruby User Authentication | Ruby User Authorization | Salting | Rainbow Tables</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link onClick={Blog4}>Blog Link</Link> </p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={Blog4}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>
@@ -60,7 +60,7 @@ function Blogs(){
                            <p className="text-center text-xl font-medium pb-4"> JSON | Routing | Server-Client Interaction | JavaScript</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link onClick={Blog1}>Blog Link</Link> </p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4"  onClick={Blog1}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>
@@ -78,7 +78,7 @@ function Blogs(){
                            <p className="text-center text-xl font-medium pb-4"> SQL | Databases | SQL Querying | SQLite3</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link onClick={Blog3}>Blog Link</Link> </p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4"  onClick={Blog3}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>
@@ -95,7 +95,7 @@ function Blogs(){
                            <p className="text-center text-xl font-medium pb-4"> React | Parent-Child Components | Props | JavaScript</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link onClick={Blog2}>Blog Link</Link> </p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4"  onClick={Blog2}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>
@@ -112,7 +112,7 @@ function Blogs(){
                            <p className="text-center text-xl font-medium pb-4"> Coding Advice | Bootcamp | Flatiron School</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link onClick={Blog5}>Blog Link</Link> </p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4"  onClick={Blog5}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>
