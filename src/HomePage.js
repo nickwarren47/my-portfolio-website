@@ -46,7 +46,7 @@ function HomePage(){
                 </div>
                 <div className="flex items-center justify-center">
                     <div className="inline-flex my-7">
-                        <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-9 w-9 mr-2" src={email} alt=""/>Email</p> 
+                        <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-9 w-9 mr-2" src={email} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={() => window.location = 'mailto:nickwarren47@gmail.com'}>Email</Link></p> 
                         <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={GitHub}>GitHub</Link></p>
                         <p className="text-center text-3xl font-bold font-mono ml-12 group"><img className="inline h-7 w-7 mr-2" src={linkedin} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={Linkedin}>LinkedIn</Link></p>
                     </div>
