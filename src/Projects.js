@@ -67,7 +67,7 @@ function Projects(){
                            <p className="text-center text-xl font-medium pb-4"> React | Ruby | Ruby on Rails | Tailwind CSS | JSON Routing | Internal & External API</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={ScubaHeroku}>Heroku Link</Link></p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={ScubaHeroku}>Website Link</Link></p> 
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={ScubaGitHub}>GitHub Link</Link></p>
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/>Demo Link</p>
                             </div>
@@ -86,7 +86,7 @@ function Projects(){
                            <p className="text-center text-xl font-medium pb-4"> React | Ruby | Ruby on Rails | Tailwind CSS | JSON Routing | Internal API</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={WanderHeroku}>Heroku Link </Link></p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={WanderHeroku}>Website Link </Link></p> 
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={WanderGitHub}>GitHub Link </Link></p>
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/>Demo Link </p>
                             </div>

@@ -18,7 +18,7 @@ function NickActivities() {
     return(
         <div>
             <div className='bg-[url(https://user-images.githubusercontent.com/106715328/196274688-9ed1ce2b-1c68-4998-a448-75553ca991ef.jpg)] min-h-screen w-full bg-cover bg-center p-1'>
-            <h2 className="text-center text-7xl font-bold font-mono mb-4 my-10">NICK'S ACTIVITIES</h2>
+            <h2 className="text-center text-7xl font-bold font-mono mb-4 my-10">MORE ABOUT NICK</h2>
             <div>
             <div className="flex items-center justify-center">
                     <div className="my-6 container flex justify-center">
@@ -67,6 +67,14 @@ function NickActivities() {
                         alt="..."
                     />
                     <img
+                        src="https://user-images.githubusercontent.com/106715328/197282561-33251fef-bc22-4d2b-a70e-b4bf3ffaab5e.JPG"
+                        alt="..."
+                    />
+                    <img
+                        src="https://user-images.githubusercontent.com/106715328/197282563-9afc70a4-4a9d-4a38-a058-1c8b6addee99.JPG"
+                        alt="..."
+                    />
+                    <img
                         src="https://user-images.githubusercontent.com/106715328/193161288-6930ca12-e604-483e-bdc5-b9b53e6013b2.jpg"
                         alt="..."
                     />
@@ -82,47 +90,61 @@ function NickActivities() {
             </div>
             </div>
             <div className="flex items-center justify-center">
-                    <div className='w-3/5'>
-                        <h3 className="text-center text-4xl font-bold font-mono w-full">My Other Hobbies
-                        <p className="text-2xl font-bold font-mono my-4"> Much to my wife's chagrin, I have many hobbies. To start, I am a die hard Rockhound. I have travelled to many different US states and countries in search of interesting
-                        rocks and minerals. It is a hobbie that has been shared in my family for 3 generations. As my grandfather used to say, "We all have a bad case of the Rock Pox." In addition to rockhounding, I am also an avid photographer, woodworker,
-                        welder, and mountain biker. Below are photos from my photography, woodworking, biking, and welding hobbies. Note: The images are all modals and you can click them to expand the images.
+                    <div className='w-2/5'>
+                        <p className="text-2xl font-bold font-mono my-4 text-center"> In addition to SCUBA diving, I am also a wildlife, landscape, and mineral photographer. I enjoy traveling to different locations to 
+                        get the perfect photo. Below are some of my photos fro places such as Jamaica, Bahamas, Israel, Hawaii, Colorado, Arizona, and many more. My favorite photos are those when you get the timing perfectly. 
+                        For example, the photo of the elk raming their horns together or the rain drop between the leaves. Please enjoy looking through them.
                         </p>
-                        </h3>
+                        <p className="text-3xl font-bold font-mono my-16 text-center">Note: you can click the images to expand them and see their descriptions.</p>
                     </div>
             </div>
             
             <div className="flex items-center justify-center">
-            <div className="grid grid-cols-5 gap-3 pt-6 pl-24 pr-24 container mx-auto">
+            <div className="grid grid-cols-5 gap-3 pl-24 pr-24 container mx-auto">
                 <div>
                     <img onClick={(e) => {toggleModal(e.target.src); setDesc("Quail family in Arizona"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260650-79a84962-cb45-4e84-bd8e-06a9e67bbcce.jpg" alt="" className="h-11/12 w-11/12"/>
                 </div>
                 <div>
-                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Autumnal Shower in Colorado"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260651-19b8441c-f7bf-44f0-959c-fecde02c4058.jpg" alt="" className="h-11/12 w-11/12"/>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Autumnal shower in Colorado"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260651-19b8441c-f7bf-44f0-959c-fecde02c4058.jpg" alt="" className="h-11/12 w-11/12"/>
                 </div>
                 <div>
                     <img onClick={(e) => {toggleModal(e.target.src); setDesc("Elk in Estes Park, CO"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260652-3b7e4fee-642c-46c1-a6c4-07d584707d9f.JPG" alt="" className="h-11/12 w-11/12"/>
                 </div>
                 <div>
-                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Hiked to Summit (14,272 ft) of Quandary Peak, CO"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260653-eccecf0a-af96-4c02-8c68-eca082f5ac8a.jpg" alt="" className="h-11/12 w-11/12"/>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Hiked to summit (14,272 ft) of Quandary Peak, CO"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260653-eccecf0a-af96-4c02-8c68-eca082f5ac8a.jpg" alt="" className="h-11/12 w-11/12"/>
                 </div>
                 <div>
-                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Mining for Amazonite and Quartz Crystals in Lake George, Colorado"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260654-50ed14dc-679a-46f2-97bd-6e641ac89c84.JPG" alt="mining" className="h-11/12 w-11/12"/>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Mining for Amazonite and Quartz crystals in Lake George, Colorado"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197308886-1acf6de2-52f1-49b1-b90f-b3ecd61bde4e.JPG" alt="mining" className="h-11/12 w-11/12"/>
                 </div>
                 <div>
-                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Hiked to Summit (14,272 ft) of Quandary Peak, CO"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260653-eccecf0a-af96-4c02-8c68-eca082f5ac8a.jpg" alt="" className="h-11/12 w-11/12"/>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Crazy Lace Agates after they were tumbled in my rock tumbler"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197292375-e5e43895-3c81-4e04-9f94-01f294ffd8e3.jpg" alt="" className="h-11/12 w-11/12"/>
                 </div>
                 <div>
-                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Hiked to Summit (14,272 ft) of Quandary Peak, CO"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260653-eccecf0a-af96-4c02-8c68-eca082f5ac8a.jpg" alt="" className="h-11/12 w-11/12"/>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Boat skimming across the Caribbean Sea in Nassau, Bahamas"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197308339-a80b2de7-ef4f-433b-ae3d-b55e8e0a08b4.jpg" alt="" className="h-11/12 w-11/12"/>
                 </div>
                 <div>
-                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Hiked to Summit (14,272 ft) of Quandary Peak, CO"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260653-eccecf0a-af96-4c02-8c68-eca082f5ac8a.jpg" alt="" className="h-11/12 w-11/12"/>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Sunset over Ala Wai boat harbor in Honolulu, Hawaii"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197292387-135b9cd0-66aa-4701-bc86-fb27d5739cb5.jpg" alt="" className="h-11/12 w-11/12"/>
                 </div>
                 <div>
-                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Hiked to Summit (14,272 ft) of Quandary Peak, CO"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260653-eccecf0a-af96-4c02-8c68-eca082f5ac8a.jpg" alt="" className="h-11/12 w-11/12"/>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Delecate Arch in Arches National Park, Moab, Utah"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197308751-c0f8b3a8-fe50-4951-942d-db8268d9112d.jpg" alt="" className="h-11/12 w-11/12"/>
                 </div>
                 <div>
-                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Hiked to Summit (14,272 ft) of Quandary Peak, CO"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197260653-eccecf0a-af96-4c02-8c68-eca082f5ac8a.jpg" alt="" className="h-11/12 w-11/12"/>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Sunset on beach in Montego Bay, Jamaica"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197292578-9ab48bfc-6dc8-4fb6-9029-1580c03a4f43.jpg" alt="" className="h-11/12 w-11/12"/>
+                </div>
+                <div>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Overlooking Lake Dillon on a fall day in Colorado"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197308299-c5911e97-d7e5-4fa7-b813-a2461ac136f3.jpg" alt="" className="h-11/12 w-11/12"/>
+                </div>
+                <div>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("A blue Mosque minaret overlooking the Medditeranean Sea in Tel Aviv, Israel"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197308486-32916048-e063-47e5-be6a-b9799d76af1a.jpg" alt="" className="h-11/12 w-11/12"/>
+                </div>
+                <div>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Bruno Canyon Jasper mineral photo"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197308513-d105fa6c-efe8-4fcd-b6e7-d5bf03eef864.jpg" alt="" className="h-11/12 w-11/12"/>
+                </div>
+                <div>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("A scenic view of the Aspen trees on Guenilla Pass, Colorado"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197308662-1a189bdf-6e96-4806-8623-24cca9479db6.jpg" alt="" className="h-11/12 w-11/12"/>
+                </div>
+                <div>
+                    <img onClick={(e) => {toggleModal(e.target.src); setDesc("Lionfish showing me its frills"); setAlt(e.target.alt)}} src="https://user-images.githubusercontent.com/106715328/197309007-591406bf-06bd-4d8e-9597-ca9de69ac8cd.JPG" alt="" className="h-11/12 w-11/12"/>
                 </div>
                 <Modal
                     show={modal}
@@ -139,6 +161,7 @@ function NickActivities() {
                 </Modal>
                 </div>
             </div>
+            <div className="h-10"></div>
             </div>
         </div>
     )

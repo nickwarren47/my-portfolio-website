@@ -40,7 +40,7 @@ function NavBar(){
                     
                     <Navbar.Link
                         active={location.pathname === "/nickactivities"}>
-                        <Link to="/nickactivities" className="text-lg"> Activities </Link>
+                        <Link to="/nickactivities" className="text-lg"> More About Nick </Link>
                     </Navbar.Link>
                 </Navbar.Collapse>
                 </div>
