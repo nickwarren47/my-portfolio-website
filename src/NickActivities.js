@@ -92,7 +92,7 @@ function NickActivities() {
             <div className="flex items-center justify-center">
                     <div className='w-4/5'>
                         <p className="text-2xl font-bold font-mono my-4 text-center"> In addition to SCUBA diving, I am also a wildlife, landscape, and mineral photographer. I enjoy traveling to different locations to 
-                        get the perfect photo. Below are some of my photos fro places such as Jamaica, Bahamas, Israel, Hawaii, Colorado, Arizona, and many more. My favorite photos are those when you get the timing perfectly. 
+                        get the perfect photo. Below are some of my photos from places such as Jamaica, Bahamas, Israel, Hawaii, Colorado, Arizona, and many more. My favorite photos are those when you get the timing perfectly. 
                         For example, the photo of the elk raming their horns together or the rain drop between the leaves. Please enjoy looking through them.
                         </p>
                         <p className="text-3xl font-bold font-mono my-16 text-center">Note: you can click the images to expand them and see their descriptions.</p>
