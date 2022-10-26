@@ -3,13 +3,13 @@
 // import tailwind from './image/tailwind.jpg'
 import scuba from './image/scubaPocket.jpg'
 import github from './image/github.png'
-import heroku from './image/heroku.png'
 import youtube from './image/youtube.png'
 import wanderlust from './image/wanderlust.jpg'
 import beer from './image/beer.png'
 import destiny from './image/destiny.jpg'
 import coders from './image/coders.png'
 import { Link } from "react-router-dom";
+import web from './image/web.png'
 
 
 function Projects(){
@@ -36,6 +36,10 @@ function Projects(){
 
     function WanderHeroku() {
         window.open("https://phase-4-wanderlust.herokuapp.com/");
+    }
+
+    function BeerWeb() {
+        window.open("https://beast-brewer-app.netlify.app/");
     }
 
     function BeerGitHub() {
@@ -67,7 +71,7 @@ function Projects(){
                            <p className="text-center text-xl font-medium pb-4"> React | Ruby | Ruby on Rails | Tailwind CSS | JSON Routing | Internal & External API</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={ScubaHeroku}>Website Link</Link></p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={web} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={ScubaHeroku}>Website Link</Link></p> 
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={ScubaGitHub}>GitHub Link</Link></p>
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/>Demo Link</p>
                             </div>
@@ -86,7 +90,7 @@ function Projects(){
                            <p className="text-center text-xl font-medium pb-4"> React | Ruby | Ruby on Rails | Tailwind CSS | JSON Routing | Internal API</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={heroku} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={WanderHeroku}>Website Link </Link></p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={web} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={WanderHeroku}>Website Link </Link></p> 
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={WanderGitHub}>GitHub Link </Link></p>
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/>Demo Link </p>
                             </div>
@@ -107,6 +111,7 @@ function Projects(){
                            <p className="text-center text-xl font-medium pb-4"> Vanilla JavaScript | HTML | CSS | JSON Routing | External API</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
+                            <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={web} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={BeerWeb}>Website Link </Link></p> 
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={BeerGitHub}>GitHub Link</Link></p>
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={BeerDemo}>Demo Link</Link></p>
                             </div>
