@@ -65,7 +65,7 @@ function Projects(){
                 <h2 className="text-center text-7xl font-bold font-mono mb-4 my-10">PROJECTS</h2>
                 <div className="flex items-center justify-center">
                 <div className="grid grid-cols-3 gap-1 pl-8 pr-8">
-                    <div className="pb-32 bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-8/12">
+                    <div className="pb-32 bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-11/12">
                         <div>
                             <img src={scuba} alt="" className="h-5/6 w-full rounded-lg"/>
                         </div>
@@ -86,7 +86,7 @@ function Projects(){
                             </div>
                         </div>
                     </div>
-                    <div className="pb-32 bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-8/12">
+                    <div className="pb-32 bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-11/12">
                         <div>
                             <img src={wanderlust} alt="" className="h-5/6 w-full rounded-lg"/>
                         </div>
@@ -105,7 +105,7 @@ function Projects(){
                             </div>
                         </div>
                     </div>
-                    <div className="pb-32 bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-8/12">
+                    <div className="pb-32 bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-11/12">
                         <div>
                             <img src={beer} alt="" className="h-5/6 w-full rounded-lg"/>
                         </div>
@@ -126,7 +126,7 @@ function Projects(){
                             </div>
                         </div>
                     </div>
-                    <div className="pb-32 bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-8/12">
+                    <div className="pb-32 bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-11/12">
                         <div>
                             <img src={coders} alt="" className="h-5/6 w-full rounded-lg"/>
                         </div>
@@ -145,7 +145,7 @@ function Projects(){
                             </div>
                         </div>
                     </div>
-                    <div className="pb-32 bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-8/12">
+                    <div className="pb-32 bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-11/12">
                         <div>
                             <img src={destiny} alt="" className="h-5/6 w-full rounded-lg"/>
                         </div>

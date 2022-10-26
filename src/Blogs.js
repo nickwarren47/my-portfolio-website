@@ -30,7 +30,7 @@ function Blogs(){
             <h2 className="text-center text-7xl font-bold font-mono mb-4 my-10">TECHNICAL BLOGS</h2>
                 <div className="flex items-center justify-center">
                 <div className="grid grid-cols-3 gap-1 pl-8 pr-8">
-                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-8/12">
+                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 ml-auto mr-auto h-5/6 w-11/12">
                         <div>
                             <img src={blog4} alt="" className="h-5/6 w-full rounded-lg"/>
                         </div>
@@ -47,7 +47,7 @@ function Blogs(){
                             </div>
                         </div>
                     </div>
-                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 pb-28 ml-auto mr-auto h-5/6 w-8/12">
+                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 pb-28 ml-auto mr-auto h-5/6 w-11/12">
                         <div>
                             <img src={blog1} alt="" className="h-5/6 w-full rounded-lg"/>
                         </div>
@@ -64,7 +64,7 @@ function Blogs(){
                             </div>
                         </div>
                     </div>
-                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 pb-28 ml-auto mr-auto h-5/6 w-8/12">
+                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 pb-28 ml-auto mr-auto h-5/6 w-11/12">
                         <div>
                             <img src={blog3} alt="" className="h-5/6 w-full rounded-lg"/>
                         </div>
@@ -82,7 +82,7 @@ function Blogs(){
                             </div>
                         </div>
                     </div>
-                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 pb-28 ml-auto mr-auto h-5/6 w-8/12">
+                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 pb-28 ml-auto mr-auto h-5/6 w-11/12">
                         <div>
                             <img src={blog2} alt="" className="h-5/6 w-full rounded-lg"/>
                         </div>
@@ -99,7 +99,7 @@ function Blogs(){
                             </div>
                         </div>
                     </div>
-                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 pb-28 ml-auto mr-auto h-5/6 w-8/12">
+                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 pb-28 ml-auto mr-auto h-5/6 w-11/12">
                         <div>
                             <img src={blog5} alt="" className="h-5/6 w-full rounded-lg"/>
                         </div>

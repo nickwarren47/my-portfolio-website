@@ -32,7 +32,7 @@ function NickActivities() {
                         </h3>
                     </div>
                 </div>
-            <div className="h-96 w-4/12 container mx-auto rounded-2xl">
+            <div className="h-96 w-7/12 container mx-auto rounded-2xl">
                 <Carousel slideInterval={5000}>
                     <img
                         src="https://user-images.githubusercontent.com/106715328/193161729-68e3835e-9634-43ef-97a2-9f325516ed10.jpg"
@@ -90,7 +90,7 @@ function NickActivities() {
             </div>
             </div>
             <div className="flex items-center justify-center">
-                    <div className='w-2/5'>
+                    <div className='w-4/5'>
                         <p className="text-2xl font-bold font-mono my-4 text-center"> In addition to SCUBA diving, I am also a wildlife, landscape, and mineral photographer. I enjoy traveling to different locations to 
                         get the perfect photo. Below are some of my photos fro places such as Jamaica, Bahamas, Israel, Hawaii, Colorado, Arizona, and many more. My favorite photos are those when you get the timing perfectly. 
                         For example, the photo of the elk raming their horns together or the rain drop between the leaves. Please enjoy looking through them.
