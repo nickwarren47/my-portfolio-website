@@ -50,6 +50,15 @@ function Projects(){
         window.open("https://www.loom.com/share/c1e25e570a5440a0b5335a94c9f8765d");
     }
 
+    
+    function CodersGitHub() {
+        window.open("https://github.com/nickwarren47/phase2-react-project");
+    }
+
+    function CodersWeb() {
+        window.open("https://coders-keys.netlify.app/");
+    }
+
     return(
         <div>
             <div className='bg-[url(https://user-images.githubusercontent.com/106715328/196836326-7bdc25c5-ff5a-451c-8710-2ead27475db7.jpg)] min-h-screen w-full bg-cover bg-center p-1'>
@@ -111,7 +120,7 @@ function Projects(){
                            <p className="text-center text-xl font-medium pb-4"> Vanilla JavaScript | HTML | CSS | JSON Routing | External API</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                            <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={web} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={BeerWeb}>Website Link </Link></p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={web} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={BeerWeb}>Website Link </Link></p> 
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={BeerGitHub}>GitHub Link</Link></p>
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={BeerDemo}>Demo Link</Link></p>
                             </div>
@@ -130,7 +139,8 @@ function Projects(){
                            <p className="text-center text-xl font-medium pb-4"> React | Active Record | DB.json Database | Semantic UI | JSON Routing</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5"> 
-                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/>GitHub Link</p>
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={web} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={CodersWeb}>Website Link </Link></p> 
+                                <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={CodersGitHub}>GitHub Link</Link></p>
                                 <p className="text-center text-xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={youtube} alt=""/>Demo Link</p>
                             </div>
                         </div>
