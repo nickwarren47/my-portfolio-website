@@ -23,9 +23,9 @@ function NickActivities() {
             <div className="flex items-center justify-center">
                     <div className="my-6 container flex justify-center">
                         <h3 className="text-center text-4xl font-bold font-mono w-10/12">My SCUBA Diving Adventures
-                        <p className="text-2xl font-bold font-mono my-4"> When my wife and I met, she told me that she was an avid SCUBA diver and had all her own gear. I had never met someone (especially being in a land locked state) 
-                        that would plan trips just to go SCUBA diving and would bring their own gear. Naturally, I was interested in the idea of being able to breath under water and to see the sea life in their own environment. So I decided to take 
-                        take the plunge. We went to Montego Bay, Jamaica to get my Padi Open Water diver certification. It is a decision I have never regretted! The first time jumping into the water with all of my scuba gear on was at first extremely frightening but 
+                        <p className="text-2xl font-bold font-mono my-4"> When my wife and I met, she told me that she was an avid SCUBA diver and had all her own gear. I had never met someone (especially being in a landlocked state) 
+                        that would plan trips just to go SCUBA diving and would bring their own gear. Naturally, I was interested in the idea of being able to breathe under water and to see the sea life in their own environment. So I decided to take 
+                        take the plunge. We went to Montego Bay, Jamaica to get my PADI Open Water diver certification. It is a decision I have never regretted! The first time jumping into the water with all of my scuba gear on was at first extremely frightening but 
                         when I was on the sea floor and looked up to see the waves crashing above my head, I knew this was the sport for me. We have now dove in Jamaica, the Bahamas, California, and Australia. Additionally, we have snorkled in Israel, Hawaii, Mexico, and in the very cold water of Colorado. 
                         Below are photos of the wildlife we've seen and the places we've been on our adventures.
                         </p>
