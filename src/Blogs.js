@@ -4,6 +4,7 @@ import blog2 from './image/blog2.jpg'
 import blog3 from './image/blog3.jpg'
 import blog4 from './image/blog4.jpg'
 import blog5 from './image/blog5.jpg'
+import blog6 from './image/blog6.jpg'
 import { Link } from "react-router-dom";
 
 
@@ -21,6 +22,9 @@ function Blogs(){
         window.open("https://dev.to/nickwarren47/encryption-authentication-and-authorization-in-ruby-on-rails-596a");
      }
      function Blog5() {
+        window.open("https://dev.to/nickwarren47/react-weather-app-made-easy-1pfa");
+     }
+     function Blog6() {
         window.open("https://dev.to/nickwarren47/reflection-on-my-flatiron-school-software-engineering-bootcamp-20oa");
      }
 
@@ -104,6 +108,24 @@ function Blogs(){
                             <img src={blog5} alt="" className="h-5/6 w-full rounded-lg"/>
                         </div>
                         <br/>
+                        <h5 className="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white text-center">React Weather App Made Easy!</h5>
+                        <div className="p-4">
+                            <p className="font-medium text-lg text-black mb-3 dark:text-gray-400 pb-4" >In this blog, I discuss how I incorporated a weather app within my Scuba Pocket Guide app and how a developer can make their own React Weather app. I show how to get the API key, how to retrieve the data, and the code needed to 
+                            display the data from the API. I also show how to create a location search feature using React useState.</p>
+                        </div>
+                        <h2 className="text-center text-xl font-bold"> Subjects: </h2>
+                           <p className="text-center text-xl font-medium pb-4"> API Interface | React | Data Fetching with API Key | Tailwind CSS | Axios</p>
+                        <div className="flex items-center justify-center">
+                            <div className="inline-flex my-5">
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4"  onClick={Blog5}>Blog Link</Link> </p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 pb-28 ml-auto mr-auto h-5/6 w-11/12">
+                        <div>
+                            <img src={blog6} alt="" className="h-5/6 w-full rounded-lg"/>
+                        </div>
+                        <br/>
                         <h5 className="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white text-center">Reflection on My Flatiron School Software Engineering Bootcamp</h5>
                         <div className="p-4">
                             <p className="font-medium text-lg text-black mb-3 dark:text-gray-400 pb-4" >I wrote this blog to talk about my time at Flatiron School's Software Engineering bootcamp and the lessons I learned about coding and about myself. I wanted the article to be a resource for others who will be participating in a tech bootcamp.</p>
@@ -112,7 +134,7 @@ function Blogs(){
                            <p className="text-center text-xl font-medium pb-4"> Coding Advice | Bootcamp | Flatiron School</p>
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
-                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4"  onClick={Blog5}>Blog Link</Link> </p> 
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4"  onClick={Blog6}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>

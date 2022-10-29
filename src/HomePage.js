@@ -79,7 +79,7 @@ function HomePage(){
                 <div className="flex items-center justify-center">
                     <h2 className="text-center text-3xl font-bold font-mono mb-8">Software Languages and Frameworks</h2>
                 </div>
-                <div className="flex justify-center">
+                <div className="flex flex-wrap justify-center">
                     <div className="grid grid-cols-6 gap-4 pl-8 pr-8">
                         <p className="text-center text-2xl font-bold font-mono ml-10"><img className="h-20 w-20 mr-10" src={javascript} alt=""/>JavaScript</p> 
                         <p className="text-center text-2xl font-bold font-mono ml-14 mr-14"><img className="h-20 w-20" src={react} alt=""/>React</p>
