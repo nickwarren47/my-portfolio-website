@@ -25,8 +25,7 @@ function HomePage(){
 
     function GitHub() {
         window.open("https://github.com/nickwarren47?tab=repositories");
-     }
-
+    }
     function Linkedin() {
         window.open("https://www.linkedin.com/in/nick-warren-co/");
     }
@@ -41,12 +40,12 @@ function HomePage(){
         <div>
             <div className='bg-[url(https://user-images.githubusercontent.com/106715328/196274688-9ed1ce2b-1c68-4998-a448-75553ca991ef.jpg)] min-h-screen w-full bg-cover bg-center p-1'>
             <div className="flex items-center justify-center">
-                <img src={nick} alt="" className="w-1/6 h-1/6 rounded-full my-7"
+                <img src={nick} alt="" className="rounded-full my-7 sm:w-3/6 xsm:w-2/5 md:7/12 lg:w-5/12 xl:w-2/12 xl:"
                 />
             </div>
                 <h2 className="text-center text-5xl font-bold font-mono mb-4">NICK WARREN</h2>
                 <div className="flex items-center justify-center">
-                    <div className="inline-flex">
+                    <div className="sm:columns-1 xsm:columns-1 lg:flex inline-flex md:inline-flex md:m-3 sm:m-3">
                         <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={processor} alt=""/>Software Engineer /</p> 
                         <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={scientist} alt=""/>Scientist /</p>
                         <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={oxygen} alt=""/>Scuba Diver</p>
@@ -61,17 +60,15 @@ function HomePage(){
                         {/* <p className="text-center text-3xl font-bold font-mono ml-12 group"><img className="inline h-7 w-7 mr-2" src={linkedin} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={Linkedin}>Twitter</Link></p> */}
                     </div>
                 </div>
-                <div className="flex items-center justify-center">
-                    <div className="my-6 container flex justify-center">
-                        <h3 className="text-center text-3xl font-bold font-mono w-10/12">About Me
-                        <p className="text-2xl font-bold font-mono "> In 2016, I graduated from the University of Colorado with a Bachelors of Arts degree in Geology and a minor in Business Administration. While at CU, 
+                <div className="flex content-center justify-center my-6 xsm:w-8/12 xsm:mx-auto sm:w-9/12 sm:mx-auto 2xl:w-7/12 sm:ml-24 md:ml-24 2xl:mx-auto text-xl">
+                        <h3 className="text-center text-3xl font-bold font-mono">About Me
+                        <p className="text-2xl font-bold font-mono"> In 2016, I graduated from the University of Colorado with a Bachelors of Arts degree in Geology and a minor in Business Administration. While at CU, 
                         I wrote and defended my honors thesis in front of a panel of 4 professors. After successfuly defending my thesis, I graduated with Cum Laude honors. I then worked for the oil and gas industry for 5 years. While working as a Geological Technician, 
                         I was taught to use Python code to analyze and modify data. This started my Software Engineering journey as my interest in coding continued to grow. I decided to become formally educated in 
                         Fullstack Software Engineering in the Flatiron School bootcamp program. At Flatiron, I learned to code in JavaScript, React, Ruby, and Ruby on Rails. Additionally, I studied SQLite3, Postgresql, Sinatra, JSON, Tailwind CSS, Semantic UI, HTML, and CSS. After graduating
                         from the Flatiron School program, I am now creating various web applications such as the Scuba Pocket Guide and Wanderlust (please see the Projects tab to learn more).
                         </p>
                         </h3>
-                    </div>
                 </div>
                 <div className="flex items-center justify-center">
                     <img src={divider} alt="" className="w-6/12 h-1/12 mr-4"/>

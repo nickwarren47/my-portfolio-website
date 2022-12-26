@@ -23,10 +23,13 @@ function NavBar(){
                         <Link to="/" className="text-lg"> Home Page </Link>
                     </Navbar.Link>
 
+
+      
                     <Navbar.Link
                         active={location.pathname === "/projects"}>
                         <Link to="/projects" className="text-lg"> Projects </Link>
                     </Navbar.Link>
+
 
                     <Navbar.Link
                         active={location.pathname === "/blogs"}>
