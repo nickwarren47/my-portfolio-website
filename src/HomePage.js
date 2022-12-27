@@ -9,14 +9,15 @@ import github from './image/github.png'
 import linkedin from './image/linkedin.png'
 import javascript from './image/javascript.png'
 import react from './image/react.png'
-import ruby from './image/ruby.png'
-import rails from './image/rails.jpg'
+import ruby from './image/Ruby.png'
+import rails from './image/rails.png'
 import postgres from './image/postgres.png'
 import sqlite from './image/sqlite.png'
 import html from './image/html.png'
+// import skills from './image/skills.png'
 import css from './image/css.png'
-import semantic from './image/semantic.jpg'
-import tailwind from './image/tailwind.jpg'
+import semantic from './image/semantic.png'
+import tailwind from './image/tailwind.png'
 import { Link } from "react-router-dom";
 import blogLogo from './image/blogLogo.png'
 
@@ -60,7 +61,7 @@ function HomePage(){
                         {/* <p className="text-center text-3xl font-bold font-mono ml-12 group"><img className="inline h-7 w-7 mr-2" src={linkedin} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={Linkedin}>Twitter</Link></p> */}
                     </div>
                 </div>
-                <div className="flex content-center justify-center my-6 xsm:w-8/12 xsm:mx-auto sm:w-9/12 sm:mx-auto 2xl:w-7/12 sm:ml-24 md:ml-24 2xl:mx-auto text-xl">
+                <div className="flex content-center justify-center my-6 xsm:w-8/12 xsm:mx-auto sm:w-9/12 sm:mx-auto 2xl:w-7/12 2xl:mx-auto text-xl">
                         <h3 className="text-center text-3xl font-bold font-mono">About Me
                         <p className="text-2xl font-bold font-mono"> In 2016, I graduated from the University of Colorado with a Bachelors of Arts degree in Geology and a minor in Business Administration. While at CU, 
                         I wrote and defended my honors thesis in front of a panel of 4 professors. After successfuly defending my thesis, I graduated with Cum Laude honors. I then worked for the oil and gas industry for 5 years. While working as a Geological Technician, 
@@ -76,18 +77,22 @@ function HomePage(){
                 <div className="flex items-center justify-center">
                     <h2 className="text-center text-3xl font-bold font-mono mb-8">Software Languages and Frameworks</h2>
                 </div>
+                {/* <div className="flex items-center justify-center">
+                    <img src={skills} alt="" className="rounded-xl xl:w-4/12 lg:h-1/12 pb-5"
+                    /> 
+                </div> */}
                 <div className="flex flex-wrap justify-center">
                     <div className="grid grid-cols-6 gap-4 pl-8 pr-8">
-                        <p className="text-center text-2xl font-bold font-mono ml-10"><img className="h-20 w-20 mr-10" src={javascript} alt=""/>JavaScript</p> 
-                        <p className="text-center text-2xl font-bold font-mono ml-14 mr-14"><img className="h-20 w-20" src={react} alt=""/>React</p>
-                        <p className="text-center text-2xl font-bold font-mono ml-14"><img className="h-20 w-20" src={ruby} alt=""/>Ruby</p>
-                        <p className="text-center text-2xl font-bold font-mono ml-14"><img className="h-20 w-20" src={rails} alt=""/>Rails</p>
-                        <p className="text-center text-2xl font-bold font-mono ml-14"><img className="h-20 w-20" src={postgres} alt=""/>Postgresql</p>
-                        <p className="text-center text-2xl font-bold font-mono ml-14"><img className="h-20 w-20" src={sqlite} alt=""/>SQLite3</p>
-                        <p className="text-center text-2xl font-bold font-mono ml-14"><img className="h-20 w-20" src={tailwind} alt=""/>Tailwind CSS</p>
-                        <p className="text-center text-2xl font-bold font-mono ml-14"><img className="h-20 w-20" src={semantic} alt=""/>Semantic UI</p>
-                        <p className="text-center text-2xl font-bold font-mono ml-14"><img className="h-20 w-20" src={html} alt=""/>HTML</p>
-                        <p className="text-center text-2xl font-bold font-mono ml-6"><img className="h-20 w-20" src={css} alt=""/>CSS</p>
+                        <img className="h-40 w-40 mr-10 rounded-xl" src={javascript} alt=""/>
+                        <img className="h-40 w-40 rounded-xl" src={react} alt=""/>
+                        <img className="h-40 w-40 rounded-xl" src={ruby} alt=""/>
+                        <img className="h-40 w-40 rounded-xl" src={rails} alt=""/>
+                        <img className="h-40 w-40 rounded-xl" src={postgres} alt=""/>
+                        <img className="h-40 w-40 rounded-xl" src={sqlite} alt=""/>
+                        <img className="h-40 w-40 rounded-xl" src={tailwind} alt=""/>
+                        <img className="h-40 w-40 rounded-xl" src={semantic} alt=""/>
+                        <img className="h-40 w-40 rounded-xl" src={html} alt=""/>
+                        <img className="h-40 w-40 rounded-xl" src={css} alt=""/>
                     </div>
                 </div>
             </div>
