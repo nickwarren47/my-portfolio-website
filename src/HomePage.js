@@ -43,9 +43,9 @@ function HomePage(){
                 <h2 className="text-center text-5xl font-bold font-mono mb-4">NICK WARREN</h2>
                 <div className="flex items-center justify-center">
                     <div className="sm:columns-1 xsm:columns-1 lg:flex inline-flex md:inline-flex md:m-3 sm:m-3">
-                        <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={processor} alt=""/>Software Engineer /</p> 
-                        <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={scientist} alt=""/>Scientist /</p>
-                        <p className="text-center text-4xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={oxygen} alt=""/>Scuba Diver</p>
+                        <p className="text-center 2xl:text-4xl xl:text-4xl md:text-4xl sm:text-2xl xsm:text-xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={processor} alt=""/>Software Engineer /</p> 
+                        <p className="text-center 2xl:text-4xl xl:text-4xl md:text-4xl sm:text-2xl xsm:text-xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={scientist} alt=""/>Scientist /</p>
+                        <p className="text-center 2xl:text-4xl xl:text-4xl md:text-4xl sm:text-2xl xsm:text-xl font-bold font-mono ml-2"><img className="inline h-9 w-9 mr-2" src={oxygen} alt=""/>Scuba Diver</p>
                     </div>
                 </div>
                 <div className="flex items-center justify-center">
@@ -72,7 +72,7 @@ function HomePage(){
                 <div className="flex items-center justify-center">
                     <h2 className="text-center text-3xl font-bold font-mono mb-8">Software Languages and Frameworks</h2>
                 </div>
-                <div className="flex flex-wrap justify-center">
+                <div className="flex flex-wrap justify-center pb-5">
                     <div className="grid grid-cols-6 gap-4 pl-8 pr-8">
                         <img className="h-40 w-40 mr-10 rounded-2xl" src={javascript} alt=""/>
                         <img className="h-40 w-40 rounded-2xl" src={react} alt=""/>
