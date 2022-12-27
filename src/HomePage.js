@@ -9,12 +9,11 @@ import github from './image/github.png'
 import linkedin from './image/linkedin.png'
 import javascript from './image/javascript.png'
 import react from './image/react.png'
-import ruby from './image/Ruby.png'
+import ruby from './image/ruby.png'
 import rails from './image/rails.png'
 import postgres from './image/postgres.png'
 import sqlite from './image/sqlite.png'
 import html from './image/html.png'
-// import skills from './image/skills.png'
 import css from './image/css.png'
 import semantic from './image/semantic.png'
 import tailwind from './image/tailwind.png'
@@ -33,9 +32,6 @@ function HomePage(){
     function Blogs() {
         window.open("https://dev.to/nickwarren47");
     }
-    // function Twitter() {
-    //     window.open("https://www.linkedin.com/in/nick-warren-co/");
-    // }
 
     return(
         <div>
@@ -58,7 +54,6 @@ function HomePage(){
                         <p className="text-center text-3xl font-bold font-mono ml-12"><img className="inline h-7 w-7 mr-2" src={github} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={GitHub}>GitHub</Link></p>
                         <p className="text-center text-3xl font-bold font-mono ml-12 group"><img className="inline h-7 w-7 mr-2" src={linkedin} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={Linkedin}>LinkedIn</Link></p>
                         <p className="text-center text-3xl font-bold font-mono ml-12 group"><img className="inline h-7 w-7 mr-2" src={blogLogo} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={Blogs}>Blogs</Link></p>
-                        {/* <p className="text-center text-3xl font-bold font-mono ml-12 group"><img className="inline h-7 w-7 mr-2" src={linkedin} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4" onClick={Linkedin}>Twitter</Link></p> */}
                     </div>
                 </div>
                 <div className="flex content-center justify-center my-6 xsm:w-8/12 xsm:mx-auto sm:w-9/12 sm:mx-auto 2xl:w-7/12 2xl:mx-auto text-xl">
@@ -77,22 +72,18 @@ function HomePage(){
                 <div className="flex items-center justify-center">
                     <h2 className="text-center text-3xl font-bold font-mono mb-8">Software Languages and Frameworks</h2>
                 </div>
-                {/* <div className="flex items-center justify-center">
-                    <img src={skills} alt="" className="rounded-xl xl:w-4/12 lg:h-1/12 pb-5"
-                    /> 
-                </div> */}
                 <div className="flex flex-wrap justify-center">
                     <div className="grid grid-cols-6 gap-4 pl-8 pr-8">
-                        <img className="h-40 w-40 mr-10 rounded-xl" src={javascript} alt=""/>
-                        <img className="h-40 w-40 rounded-xl" src={react} alt=""/>
-                        <img className="h-40 w-40 rounded-xl" src={ruby} alt=""/>
-                        <img className="h-40 w-40 rounded-xl" src={rails} alt=""/>
-                        <img className="h-40 w-40 rounded-xl" src={postgres} alt=""/>
-                        <img className="h-40 w-40 rounded-xl" src={sqlite} alt=""/>
-                        <img className="h-40 w-40 rounded-xl" src={tailwind} alt=""/>
-                        <img className="h-40 w-40 rounded-xl" src={semantic} alt=""/>
-                        <img className="h-40 w-40 rounded-xl" src={html} alt=""/>
-                        <img className="h-40 w-40 rounded-xl" src={css} alt=""/>
+                        <img className="h-40 w-40 mr-10 rounded-2xl" src={javascript} alt=""/>
+                        <img className="h-40 w-40 rounded-2xl" src={react} alt=""/>
+                        <img className="h-40 w-40 rounded-2xl" src={ruby} alt=""/>
+                        <img className="h-40 w-40 rounded-2xl" src={rails} alt=""/>
+                        <img className="h-40 w-40 rounded-2xl" src={postgres} alt=""/>
+                        <img className="h-40 w-40 rounded-2xl" src={sqlite} alt=""/>
+                        <img className="h-40 w-40 rounded-2xl" src={tailwind} alt=""/>
+                        <img className="h-40 w-40 rounded-2xl" src={semantic} alt=""/>
+                        <img className="h-40 w-40 rounded-2xl" src={html} alt=""/>
+                        <img className="h-40 w-40 rounded-2xl" src={css} alt=""/>
                     </div>
                 </div>
             </div>
