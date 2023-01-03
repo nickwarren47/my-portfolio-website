@@ -6,6 +6,7 @@ import blog4 from './image/blog4.jpg'
 import blog5 from './image/blog5.jpg'
 import blog6 from './image/blog6.jpg'
 import blog7 from './image/blog7.png'
+import blog8 from './image/blog8.jpg'
 import { Link } from "react-router-dom";
 
 
@@ -30,6 +31,9 @@ function Blogs(){
      }
      function Blog7() {
         window.open("https://dev.to/nickwarren47/7-tailwind-css-tips-i-wish-i-knew-earlier-2ple");
+     }
+     function Blog8() {
+        window.open("https://dev.to/nickwarren47/lwc-lightning-web-components-vs-react-components-31d1");
      }
 
     return(
@@ -157,6 +161,24 @@ function Blogs(){
                         <div className="flex items-center justify-center">
                             <div className="inline-flex my-5">
                                 <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4"  onClick={Blog7}>Blog Link</Link> </p> 
+                            </div>
+                        </div>
+                    </div>
+                    <div className="bg-slate-200 rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700 m-6 pb-28 ml-auto mr-auto h-5/6 w-11/12">
+                        <div>
+                            <img src={blog8} alt="" className="h-5/6 w-full rounded-lg"/>
+                        </div>
+                        <br/>
+                        <h5 className="mb-2 text-3xl font-semibold tracking-tight text-gray-900 dark:text-white text-center">LWC (Lightning Web Components) vs. React Components</h5>
+                        <div className="p-4">
+                            <p className="font-medium text-lg text-black mb-3 dark:text-gray-400 pb-4" >When I was first learning how to use Tailwind CSS as my CSS UI kit in my apps, I faced a steep learning curve as Tailwind has many small details that will impact the way things will display. Additionally, Tailwind also uses many acronyms which can make deciphering it 
+                            more difficult. To help others, I went through and listed my top 7 Tailwind CSS tips that greatly helped me to understand Tailwind faster. I got into details like how to apply colors, the meaning of the Tailwind acronyms, centering objects, and more.</p>
+                        </div>
+                        <h2 className="text-center text-xl font-bold"> Subjects: </h2>
+                           <p className="text-center text-xl font-medium pb-4"> Salesforce | LWCs | React Components | Event Handling</p>
+                        <div className="flex items-center justify-center">
+                            <div className="inline-flex my-5">
+                                <p className="text-center text-xl font-bold font-mono"><img className="inline h-7 w-7 mr-2" src={dev} alt=""/><Link className="text-black hover:text-blue-700 transition duration-300 ease-in-out mb-4"  onClick={Blog8}>Blog Link</Link> </p> 
                             </div>
                         </div>
                     </div>
